@@ -1,10 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>我的主页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiesong Zhang's Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #000000;
+            margin-top: 25px;
+        }
+        a {
+            color: #0066cc; /* 加深的蓝色 */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .contact {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .paper {
+            margin-bottom: 12px;
+        }
+        .paper-title {
+            font-weight: bold;
+        }
+        .coauthors {
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
-    <h1>欢迎来到我的主页！</h1>
-    <p>这是通过 GitHub Pages 搭建的。</p>
+    <header>
+        <h1>Jiesong Zhang (张洁松)</h1>
+    </header>
+
+    <div class="contact">
+        <p>Email: <a href="mailto:zhjs@alumni.pku.edu.cn">zhjs@alumni.pku.edu.cn</a></p>
+    </div>
+
+    <div class="section">
+        <h2>About</h2>
+        <p>
+            I received my PhD degree from Peking University in June 2025, supervised by 
+            <a href="https://www.math.pku.edu.cn/teachers/gansb/">Shaobo Gan</a> and 
+            <a href="https://sites.google.com/view/dishengxu/homepage">Disheng Xu</a>. 
+            I will join KTH as a postdoc in October 2025, supervised by 
+            <a href="https://www.kth.se/profile/ddam">Danijela Damjanovic</a>.
+        </p>
+    </div>
+
+    <div class="section">
+        <h2>Research Interests</h2>
+        <p>Dynamical systems, especially rigidity phenomena in (partially) hyperbolic systems.</p>
+    </div>
+
+
+    <div class="section">
+        <h2>Publications</h2>
+        <div class="paper">
+            <div class="paper-title">
+                <a href="https://arxiv.org/pdf/2311.00251">On the global product structure for uniformly quasiconformal Anosov diffeomorphisms</a>
+            </div>
+            <div>Discrete and Continuous Dynamical Systems, 2025</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">
+                <a href="https://arxiv.org/pdf/2401.04310">On holomorphic partially hyperbolic systems</a>
+            </div>
+            <div class="coauthors">(with Disheng Xu)</div>
+            <div>To appear at Journal of the European Mathematical Society</div>
+        </div>
+
+        <div class="paper">
+            <div class="paper-title">
+                <a href="https://arxiv.org/pdf/2411.19665">Invariant distributions of partially hyperbolic systems: fractal Graphs, excessive regularity, and rigidity</a>
+            </div>
+            <div class="coauthors">(with Disheng Xu)</div>
+            <div>Preprint</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Last updated: July 2025</p> <!-- 日期改为2025年7月 -->
+    </footer>
 </body>
 </html>
